@@ -1,36 +1,80 @@
-# Locked In – Full-Stack Fitness Web App 🏋️‍♂️💪
+# Locked In – Personal Fitness Companion
 
-A comprehensive fitness tracking platform built using the MERN stack (MongoDB, Express.js, React, Node.js). This application helps users plan workouts, check nutrition, calculate BMR, and monitor their health journey with dynamic features and a clean UI.
+Locked In is a full-stack MERN (MongoDB, Express, React, Node.js) fitness web application designed to help users track workouts, calculate BMR, analyze nutrition, and more through an intuitive interface.
 
 ## 🚀 Features
 
-- ✅ **Authentication & Authorization:** JWT-based secure login and registration
-- 📋 **Workout Database:** Predefined and custom workouts with categorization
-- 🥗 **Nutrition Checker:** Macronutrient insights using calorie calculations
-- 🔢 **BMR Calculator:** Calculate Basal Metabolic Rate dynamically
-- 📊 **User Dashboard:** Track progress, update profile, and manage meal plans
-- 🌐 **Responsive UI:** Mobile-first, intuitive experience
-- 📡 **RESTful APIs:** 20+ endpoints with modular MVC structure
-
-## 🛠️ Tech Stack
-
-**Frontend:**
-- React.js + React Router
-- Redux Toolkit (state management)
-- Axios (API integration)
-- MUI + Custom CSS (styling)
-
-**Backend:**
-- Node.js + Express.js
-- MongoDB + Mongoose
-- JWT + bcrypt for authentication
-- dotenv, cookie-parser, express-async-handler
-
-**Deployment:**
-- AWS EC2 (Backend)
-- AWS S3 + CloudFront (Frontend)
-- Bitbucket Pipelines for CI/CD
-- MongoDB Atlas for database
+- 🧠 AI-powered nutrition checker and workout database
+- 📊 BMR Calculator to determine your Basal Metabolic Rate
+- 🔐 Authentication using JWT and secure cookies
+- 🏋️ Workout Planner and meal plan management
+- 📱 Responsive design with React + Bootstrap
+- 📈 Redux Toolkit for state management
 
 ## 📂 Project Structure
 
+```
+.
+├── backend
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   ├── middleware
+│   └── config
+├── frontend
+│   ├── components
+│   ├── pages
+│   └── assets
+├── .env
+└── package.json
+```
+
+## ⚙️ Installation & Setup
+
+### Backend
+
+```bash
+cd backend
+npm install
+npm run server
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+> Ensure MongoDB is running locally or update your MONGO_URI in `.env`.
+
+## 🌐 Deployment
+
+To deploy in production:
+
+```bash
+cd backend
+npm run build
+```
+
+Then host using platforms like Render, Vercel, Netlify, etc.
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the backend root with:
+
+```
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+NODE_ENV=development
+```
+
+## 👨‍💻 Author
+
+Made with ❤️ by [Your Name]
+
+## 📜 License
+
+This project is licensed under the MIT License.
