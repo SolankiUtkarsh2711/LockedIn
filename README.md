@@ -1,15 +1,14 @@
-# Locked In – Personal Fitness Companion
+# LockedIn – Personal Fitness Companion
 
 Locked In is a full-stack MERN (MongoDB, Express, React, Node.js) fitness web application designed to help users track workouts, calculate BMR, analyze nutrition, and more through an intuitive interface.
 
 ## 🚀 Features
 
-- 🧠 AI-powered nutrition checker and workout database
+- 🧠 Nutrition checker and workout database
 - 📊 BMR Calculator to determine your Basal Metabolic Rate
 - 🔐 Authentication using JWT and secure cookies
 - 🏋️ Workout Planner and meal plan management
 - 📱 Responsive design with React + Bootstrap
-- 📈 Redux Toolkit for state management
 
 ## 📂 Project Structure
 
@@ -73,7 +72,7 @@ NODE_ENV=development
 
 ## 👨‍💻 Author
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Utkarsh Solanki.
 
 ## 📜 License
 
